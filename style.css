@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav {
+    width: 100%;
+    position: absolute;
+    top: 15px;
+}
+
+.nav-bar {
+    flex: 1 1 auto;
+    display: flex;
+    float: right;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+}
+
+.pic-links {
+    padding-right: 10px;
+}
+
+.main {
+    width: 100%;
+    text-align: center;
+}
+
+.google-heading {
+    padding-top: 150px;
+}
+
+h1 {
+    font-size: 100px;
+    color: red;
+    padding-bottom: 0;
+    margin-bottom: 5px;
+}
+
+textarea {
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 10px;
+    box-shadow: -5px 2px 17px 1px rgba(184,178,184,0.79);
+    border: gray;
+}
+
+button {
+    height: 36px;
+    line-height: 27px;
+    border-radius: 5px;
+    border: gray;
+    color: red;
+    font-weight: bold;
+    font-size: 15px;
+    box-shadow: -5px 2px 17px 1px rgba(184,178,184,0.79);
+    text-align: center;
+}
+
+

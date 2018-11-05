@@ -2,6 +2,10 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 .nav {
     width: 100%;
     position: absolute;
@@ -22,6 +26,10 @@ a {
 
 .pic-links {
     padding-right: 10px;
+}
+
+.user {
+    padding-right: 20px;
 }
 
 .main {
@@ -52,12 +60,25 @@ button {
     height: 36px;
     line-height: 27px;
     border-radius: 5px;
-    border: gray;
-    color: red;
+    color: gray;
     font-weight: bold;
     font-size: 15px;
-    box-shadow: -5px 2px 17px 1px rgba(184,178,184,0.79);
     text-align: center;
+    background-color: #F6F6F6;
+}
+
+.footer {
+    margin-top: 150px;
+    width: 100%;
+    border: 1px solid #E4E4E4;
+    margin-left: 0;
+    padding: 0;
+    background-color: #F2F2F2;
+}
+
+.footer p {
+    padding-left: 5px;
+    color: #808080;
 }
 
 
